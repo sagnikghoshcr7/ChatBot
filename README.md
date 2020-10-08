@@ -23,3 +23,4 @@ git clone https://github.com/sagnikghoshcr7/ChatBot.git
 -->
 ## Contributing
 Pull requests are welcome, feel free to ```fork``` this repo.
+Update the js database by adding more questions and answers, so that the bot will more powerfull.
