@@ -1,0 +1,192 @@
+body {background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRen68-f6y1nGAArwC2n6oVtbGrOqnfGpinDjYBiJTpx4SwfX5t_w&s);
+background-position:center;
+background-attachment:fixed;
+background-repeat:no-repeat ;
+background-size:cover;
+    margin-left:35%;
+    background-color:skyblue;
+}
+.main{
+    position:relative;
+    top:100px;
+}
+.id{background-color:black;
+border:1px solid gray;
+color:#3f7;
+width:45px;
+margin-top:10px;
+margin-left:-40px;
+border-radius:5px;
+font-size:10px;}
+.mouth{position:relative;
+left:35px;
+top:20px;
+    height:10px;
+    width:20px;
+    border-radius:0 0 50px 50px;
+    background-color:#3f7;
+    transform:rotate(-45deg); 
+}
+.earl{position:absolute ;
+left:5px;
+top:65px;
+    height:30px;
+    width:10px;
+    border-radius:100%;
+    background-color:#333;
+    transform:rotate(-45deg);
+}
+.earr{position:absolute ;
+left:75px;
+top:-5px;
+    height:30px;
+    width:10px;
+    border-radius:100%;
+    background-color:#333;
+    transform:rotate(-45deg);
+}
+.eyel{position:relative;
+left:10px;
+top:40px;
+    height:10px;
+    width:10px;
+    border-radius:100%;
+    background-color:#3f7;
+    animation:eye 2s infinite linear;    
+}
+.eyer{position:relative;
+left:40px;
+top:0px;
+    height:10px;
+    width:10px;
+    border-radius:100%;
+    background-color:#3f7;
+    animation:eye 2s infinite linear;
+}
+.face{width:60px;
+background-color:black;
+   height:60px; 
+   border-radius:200% 100% 100% 100%;
+    
+}
+.head{width:80px;
+padding-left:10px;
+padding-top:10px;
+background-color:silver;
+   height:80px; 
+   left:18px;
+   top:10px;
+   z-index:1;
+   animation:head 2s 0.2s infinite linear ;
+   position:relative ;
+   transform:rotate(45deg);
+   background:linear-gradient(45deg, #bbb , silver,gray);
+   box-shadow:inset 10px 10px 10px silver,inset -10px -10px 10px gray,
+0px 0px 10px 0px black;
+   border-radius:80% 40% 100% 40%;
+}
+
+.a{  position:absolute ;
+box-shadow:inset 10px 10px 10px silver,inset -10px -10px 10px gray,
+0px 0px 10px 0px black;
+height:180px;
+width:125px;
+top:85px;
+animation:a 2s infinite linear;
+background:linear-gradient(180deg, silver,#bbb ,gray);
+border-radius:80% 80% 90% 90%;
+}
+.neck{margin-top:2px;
+    height:20px;
+    width:60px;   
+    background:#333;
+    overflow:hidden;
+    border-radius:50% ;
+}
+.lhand{position:absolute ;
+    transform:rotate(20deg);
+    height:100px;
+    width:30px;
+    top:25px;
+    left:-20px;
+    border-radius: 50%  ;
+       background: #333; 
+}
+.rhand{position:absolute ;
+    transform:rotate(-20deg);
+    height:100px;
+    width:30px;
+    top:25px;
+    left:115px;
+    border-radius:50% ;
+       background: #333; 
+    
+}
+.elbowl{
+    position:relative;
+    height:50px;
+    width:15px;
+    top:25%;
+    left:-10px;
+    border-radius: 50%  ;
+       background: linear-gradient(90deg, gray, silver ); 
+
+}
+.elbowr{
+    position:relative;
+    height:50px;
+    width:15px;
+    top:25%;
+    left:10px;
+    border-radius: 50%  ;
+       background: linear-gradient(90deg, silver, gray); 
+
+}
+.box{margin-top:20px;
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    box-shadow: 0 0 5px 0 #fff,  0 0 35px 10px #0073e6;
+    background:white;
+}
+.fa-gear{font-size:40px;
+margin-top:0px;
+color:gray;    
+}
+@keyframes a{
+    from{top:85px;}
+    50%{top:100px;}
+    to{top:85px;}
+}
+@keyframes head{
+    from{top:10px;}
+    50%{top:25px;}
+    to{top:10px;}
+}
+@keyframes eye{
+    from{transform:rotateY(0deg) ;
+    }
+    to{transform:rotateY(60deg);}
+}
+input{
+    position:fixed;
+    left:10px;
+    bottom:10px;
+    width:75%;
+    height:40px;
+    outline:none;
+    z-index:2;
+    border:1px solid black;
+}
+button{
+    position:fixed;
+    bottom:10px;
+    width:20%;
+    right:10px;
+    height:44px;
+    border:1px solid black;
+    outline:none;
+    background:#37f;
+    font-size:25px;
+    color:white;
+}
