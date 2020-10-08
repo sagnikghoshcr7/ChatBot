@@ -14,7 +14,7 @@ function a() {
         b = "i am sagnik";
     }
     else if (ans.match("owner") || ans.match("created") || ans.match("made you")) {
-        b = "i was created by dan";
+        b = "i was created by Sagnik";
     }
     else if (ans.match("how are you") || ans.match("how r u")) {
         b = "fine, and you??";
@@ -31,7 +31,7 @@ function a() {
     else if (ans.match("fine")) {
         b = "good";
     }
-    else if (ans.match("age of dan")) {
+    else if (ans.match("age of Sagnik")) {
         b = "he is 20 now";
     }
     else if (ans.match("u like") || ans.match("you like")) {
@@ -56,14 +56,14 @@ function a() {
         b = "okay";
     }
 
-    else if (ans.match("who is dan")) {
-        b = "he is a learner at solo learn and he likes to code, he only made me";
+    else if (ans.match("who is Sagnik")) {
+        b = "he is a learner and he likes to code, he only made me";
     }
     else if (ans.match("bye") || ans.match("see u") || ans.match("see you") || ans.match("talk to you ") || ans.match("talk to u later")) {
         b = "see you";
     }
     else if (ans.match("about urself") || ans.match("about yourself") || ans.match("about u")) {
-        b = "i am sagnik the bot. created by dan to assist and help him";
+        b = "i am sagnik the bot. created by Sagnik to assist and help him";
     }
     else if (ans.match("can we meet") || ans.match("v meet") || ans.match("lets meet")) {
         b = "okay, lets meet in the computer hard disk";
