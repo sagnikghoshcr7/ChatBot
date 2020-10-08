@@ -6,6 +6,7 @@ Click [here](https://sagnikghoshcr7.github.io/ChatBot/) to go to the website.
 
 ## About
 A ChatBot using bruteforce answering approach.
+The js file contains some questions and answers which the bot uses.
 
 ## Tools & Languages
 - HTML5
