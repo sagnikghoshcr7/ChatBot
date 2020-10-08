@@ -13,7 +13,7 @@ The js file contains some questions and answers which the bot uses.
 - Css3
 - JS
 
-## get the code from the repository
+## Get the code from the repository
 ```
 git clone https://github.com/sagnikghoshcr7/ChatBot.git
 ```
