@@ -17,10 +17,10 @@ The js file contains some questions and answers which the bot uses.
 ```
 git clone https://github.com/sagnikghoshcr7/ChatBot.git
 ```
-<!--
+
 ## Screenshots
-![](https://github.com/sagnikghoshcr7/images/blob/master/Bouncing%20Balls.gif)
--->
+![](https://github.com/sagnikghoshcr7/images/blob/master/ChatBot.gif)
+
 ## Contributing
 Pull requests are welcome, feel free to ```fork``` this repo.
 Update the js database by adding more questions and answers, so that the bot will more powerfull.
